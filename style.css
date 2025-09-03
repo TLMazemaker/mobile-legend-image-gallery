@@ -21,18 +21,20 @@ body {
     border: 2px solid rgba(255,255,255,.6);
     text-align: center;
     align-content: center;
+}
+
+.menu-button a {
     font-size: 24px;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
 }
 
 .menu-button:hover {
     cursor: pointer;
     background: #81f7ff;
+}
+
+.menu-button:hover>a {
     color: #ffffff;
 }
-/* 
-.menu-button.responsive {
-    width: min(50vw, 200px);
-    aspect-ratio: 2/1;
-} */
